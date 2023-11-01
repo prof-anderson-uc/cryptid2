@@ -1,0 +1,106 @@
+body {
+   background-color: #f5f5dc;
+}
+
+.wrapper {
+   background-color: white;
+   width: 800px;
+   margin: 0 auto;
+   border: 1px solid gray;
+   box-shadow: 2px 2px 20px black;
+}
+
+header {
+   background-image: url(images/bkg_header.jpg);
+   padding: 20px;
+   text-align: center;
+}
+
+h1 {
+   color: white;
+   font-size: 200%;
+   text-shadow: 2px 2px 10px black;
+}
+
+.pic-right {
+   float: right;
+   border: 5px solid white;
+   box-shadow: 2px 2px 7px black;
+   margin: 0 0 1rem 1rem;
+}
+
+nav {
+   text-transform: uppercase;
+   background-color: #b45098;
+}
+
+nav ul {
+   display: flex;
+   flex-wrap: wrap;
+   justify-content: space-between;
+}
+
+nav li {
+   list-style-type: none;
+   padding: 1rem;
+}
+
+nav a {
+   text-decoration: none;
+   color: white;
+   padding: 1rem 2rem;
+}
+
+nav a:hover {
+   background-color: black;
+   border-radius: 2rem;
+}
+
+main {
+   display: grid;
+   grid-template-columns: 3fr 1fr;
+   grid-gap: 1rem;
+}
+
+.left-column {
+   font-size: 135%;
+   line-height: 1.4;
+   padding: 1rem 2rem;
+}
+
+.right-column {
+   background-color: thistle;
+   box-shadow: inset 2px 2px 10px black;
+   border-radius: 30px;
+   display: flex;
+   flex-direction: column;
+   justify-content: space-around;
+   align-items: center;
+   text-align: center;
+   margin: 1rem 1rem 0 0;
+}
+
+.right-column img {
+   border: 3px solid white;
+   border-radius: 15px;
+}
+
+.left-column h2 {
+   font-family: Arial, Helvetica, sans-serif;
+   font-size: 150%;
+   color: #b45098;
+   border-bottom: 1px solid #b45098;
+}
+
+.right-column h2 {
+   font-family: Arial, Helvetica, sans-serif;
+   font-size: 140%;
+}
+
+footer {
+   background-color: #b45098;
+   text-align: center;
+   padding: 1rem;
+   font-size: 90%;
+   color: white;
+}
